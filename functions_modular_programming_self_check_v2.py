@@ -21,7 +21,7 @@ Important:
 Recommended use:
 - Exercises 1-10: core in-class practice.
 - Exercises 11-12: modular-programming practice.
-- Exercises 13-15: algorithmic extension / homework if needed.
+- Exercises 13-15: algorithmic extension / homework.
 """
 
 
