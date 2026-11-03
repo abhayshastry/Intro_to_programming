@@ -1,5 +1,10 @@
 """Exercise 2: read scores, replace a report, and append a history record.
 
+Slides 13-21 develop the reader; slides 22-28 develop writing and append.
+Study textfiles.py and append_history.py, then implement your functions here.
+make_report.py is the completed pipeline example; your demo below calls
+your own functions. Slides 31-33 give the requirements and checking command.
+
 Work from the examples folder. Input has one integer per nonblank line.
 Skip blank lines and retain zero scores. The mean function is supplied.
 Write one line with one decimal place and a final newline, replacing old text.

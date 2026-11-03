@@ -25,6 +25,25 @@ starting; VS Code itself does not include the Python interpreter.
 See the [official VS Code setup guide](https://code.visualstudio.com/docs/python/python-tutorial)
 if needed. All commands here are terminal commands, not input for the `>>>` prompt.
 
+## How the slides connect to your files
+
+The completed examples show the patterns you will use in your two exercises.
+**Edit `modules_exercise.py` and `scores_exercise.py`.** Study and run the other
+Python files as references; the checker is supplied for you to run.
+
+| Slides | Study or run | What you implement |
+| --- | --- | --- |
+| 5–10: modules | `scores.py`, `compare_scores.py` | Import the same module, complete `compare_classes`, and guard the demo in `modules_exercise.py`. |
+| 13–21: reading | `read_text.py`, `read_position.py`, the reader in `textfiles.py` | Complete `load_scores` in `scores_exercise.py`. |
+| 22–28: writing and append | The writer in `textfiles.py`, `append_history.py`, `make_report.py` | Complete `write_report` and `append_history` in `scores_exercise.py`. |
+| 31–33: finish and check | `self_check.py` | Use its feedback to repair your file operations. |
+
+`compare_scores.py` is a finished caller: it shows how to use `scores.py`.
+Your `modules_exercise.py` becomes another caller of that same module.
+`make_report.py` shows a finished read → calculate → write program using
+helper modules. In the second exercise, the mean function and a demonstration
+are already supplied in `scores_exercise.py`; you implement its file operations.
+
 ## 1. Reuse a function from another file
 
 Open `scores.py` and `compare_scores.py` side by side. Predict the output:
