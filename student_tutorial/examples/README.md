@@ -27,16 +27,18 @@ if needed. All commands here are terminal commands, not input for the `>>>` prom
 
 ## How the slides connect to your files
 
+The 15-slide lecture introduces the concepts; this tutorial supplies the detailed
+examples and practice. Switch to VS Code for each exercise.
 The completed examples show the patterns you will use in your two exercises.
 **Edit `modules_exercise.py` and `scores_exercise.py`.** Study and run the other
 Python files as references; the checker is supplied for you to run.
 
 | Slides | Study or run | What you implement |
 | --- | --- | --- |
-| 5–10: modules | `scores.py`, `compare_scores.py` | Import the same module, complete `compare_classes`, and guard the demo in `modules_exercise.py`. |
-| 13–21: reading | `read_text.py`, `read_position.py`, the reader in `textfiles.py` | Complete `load_scores` in `scores_exercise.py`. |
-| 22–28: writing and append | The writer in `textfiles.py`, `append_history.py`, `make_report.py` | Complete `write_report` and `append_history` in `scores_exercise.py`. |
-| 31–33: finish and check | `self_check.py` | Use its feedback to repair your file operations. |
+| 4–7: modules | `scores.py`, `compare_scores.py` | Import the same module, complete `compare_classes`, and guard the demo in `modules_exercise.py`. |
+| 8–9: paths and reading | `read_text.py`, `read_position.py`, the reader in `textfiles.py` | Complete `load_scores` in `scores_exercise.py`. |
+| 10–12: writing and append | The writer in `textfiles.py`, `append_history.py`, `make_report.py` | Complete `write_report` and `append_history` in `scores_exercise.py`. |
+| 13–14: finish and check | `self_check.py` | Use its feedback to repair your file operations. |
 
 `compare_scores.py` is a finished caller: it shows how to use `scores.py`.
 Your `modules_exercise.py` becomes another caller of that same module.

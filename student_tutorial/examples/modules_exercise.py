@@ -1,6 +1,6 @@
 """Exercise 1: reuse another module, then control code that runs on import.
 
-Slides 5-10: study the completed scores.py and compare_scores.py first.
+Slides 4-7: study the completed scores.py and compare_scores.py first.
 Use compare_scores.py's import/calls and scores.py's script guard as patterns.
 Your exercise is another caller of the SAME supplied scores.py module.
 
